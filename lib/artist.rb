@@ -49,7 +49,7 @@ class Artist
   end
 
   def songs
-    @songs 
+    @songs.select {|song| self.artist}
   end
 
   def self.song_count
