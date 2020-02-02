@@ -15,7 +15,7 @@ class Artist
  end
   
   def songs
-    @songs.all.select {|song| song.artist}
+    @songs.select {|song| song.artist}
   end
 
   
