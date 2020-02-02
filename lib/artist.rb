@@ -1,3 +1,7 @@
+require "pry"
+
+binding.pry 
+
 class Artist
   attr_accessor :name
 
